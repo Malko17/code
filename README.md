@@ -1,29 +1,32 @@
 To run this filen follow the following steps:
 
-1. **Setup Environment**
+1. **Clone The code Project**
+   ```
+   git clone git@github.com:Malko17/code.git
+   cd code
+   ```
+   
+2. **Setup Environment**
    ```
    python3 -m venv mvenv
-   source mvenv/bin/activate
+
    pip install django
    ```
 
-2. **Create Django Project**
+3. **activate the virtual environment**
    ```
-   django-admin startproject Blog
-   cd Blog
+   source mvenv/bin/activate
    ```
-
-3. **Create Django App**
+4.**switch to the ablog directory**
    ```
-   python manage.py startapp ablog
+   cd ablog
    ```
-
-4. **Run Server**
+5. **Run Server**
    ```
    python manage.py runserver
    ```
 
-5. **View Project**
+6. **View Project**
    Open your web browser and navigate to `http://127.0.0.1:8000/`
 
 Remember to replace `mvenv` with your actual virtual environment name.
