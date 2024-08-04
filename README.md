@@ -17,7 +17,7 @@ To run this filen follow the following steps:
    ```
    source mvenv/bin/activate
    ```
-4.**switch to the ablog directory**
+4. **switch to the ablog directory**
    ```
    cd ablog
    ```
